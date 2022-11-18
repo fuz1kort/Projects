@@ -31,7 +31,7 @@ namespace Robots
         public Killer() => Console.WriteLine("Робот-киллер успешно создан.");
         public new void PrintInfo()
         {
-            Console.WriteLine($"\nИмя робота:\n{this.name}\n");
+            Console.WriteLine($"-------------------\nИмя робота:\n{this.name}\n");
             Console.WriteLine($"\nУровень здоровья робота {this.name}:\n{this.HP}\n");
             Console.WriteLine("\nКоординаты робота: ");
             for (int i = 0; i < 3; i++)

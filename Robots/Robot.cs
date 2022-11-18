@@ -14,7 +14,7 @@
 
         public void PrintInfo()
         {
-            Console.WriteLine($"\nИмя робота:\n{this.name}\n");
+            Console.WriteLine($"-------------------\nИмя робота:\n{this.name}\n");
             Console.WriteLine("\nКоординаты робота: ");
             for (int i = 0; i < 3; i++)
                 Console.Write(this.coordinates[i] + " ");
